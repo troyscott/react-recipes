@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import Menu from './Menu'
-import data from './recipes'
+import Summary from './Summary'
 
-console.log(data.length)
+import data from './recipes'
 
 class App extends Component {
   render() {
     return (
-
-        <Menu recipes={ data } />
+        <Summary    title="Test 1"
+                    ingredients="Test 2"
+                    steps="Test 3"    />
     );
   }
 }
