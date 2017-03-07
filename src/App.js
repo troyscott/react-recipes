@@ -7,9 +7,7 @@ import data from './recipes'
 class App extends Component {
   render() {
     return (
-        <Summary    title="Test 1"
-                    ingredients="Test 2"
-                    steps="Test 3"    />
+        <Summary />
     );
   }
 }
