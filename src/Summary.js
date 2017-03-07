@@ -3,8 +3,8 @@ import React, { PropTypes } from 'react'
 const Summary = React.createClass({
     displayName: "Summary",
     propTypes: {
-        ingredients: PropTypes.array,
-        steps: PropTypes.array,
+        ingredients: PropTypes.number.isRequired,
+        steps: PropTypes.number.isRequired,
         title: PropTypes.string
     },
     render() {
